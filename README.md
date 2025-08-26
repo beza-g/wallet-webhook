@@ -1,5 +1,5 @@
 # yaya-webhook
-Webhook verification solution for Yaya Wallet
+Webhook verification solution
 
 This solution demonstrates how to securely implement and test a webhook endpoint sent by Yaya Wallet to a client that verifies incoming requests.
 To ensure that it is only trusted senders that can send valid requests to the webhook, every incoming request includes a signature header and the server must verify the signature before accepting the request.
