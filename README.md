@@ -16,11 +16,11 @@ Clone the repo
 Install dependencies:
 `npm install express`
 Start the webhook server:
-node webhook.js
+`node webhook.js`
 Run the test sender (by first setting the secret to the one same as in the webhook file)
-$env:YAYA_WEBHOOK_SECRET="bezawits_secret"
-node send_test.js
+`$env:YAYA_WEBHOOK_SECRET="bezawits_secret"`
+`node send_test.js`
 
 Expected output:
-Response status: 200 OK
-Response body: OK
+`Response status: 200 OK`
+`Response body: OK`
