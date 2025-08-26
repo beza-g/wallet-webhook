@@ -1,4 +1,4 @@
-# yaya-webhook
+# wallet-webhook
 Webhook verification solution
 
 This solution demonstrates how to securely implement and test a webhook endpoint sent by Yaya Wallet to a client that verifies incoming requests.
