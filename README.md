@@ -14,7 +14,7 @@ The send_test.js file is for the purpose of simulating sending a request to the 
 How to test:
 Clone the repo
 Install dependencies:
-npm install express
+`npm install express`
 Start the webhook server:
 node webhook.js
 Run the test sender (by first setting the secret to the one same as in the webhook file)
